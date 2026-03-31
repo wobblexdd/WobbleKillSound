@@ -133,6 +133,3 @@ If not installed:
 * Invalid sound names are ignored safely
 * No sound is played if killer is null
 * Works only for PvP kills (player → player)
-
-```
-```

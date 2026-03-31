@@ -1,0 +1,6 @@
+prefix: "&8[&dKillSound&8] &r"
+
+reload-success: "&aKillSound configuration reloaded."
+no-permission: "&cYou do not have permission."
+usage: "&eUsage: /killsound reload"
+kill-sound-played: "&7Played sound: &f{sound}"

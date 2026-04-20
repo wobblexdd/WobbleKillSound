@@ -1,6 +1,6 @@
 package net.wobble.killsound.util;
 
-import net.wobble.killsound.WobbleKillSound;
+import net.wobble.killsound.KillSound;
 import org.bukkit.configuration.file.FileConfiguration;
 
 public final class ChatUtil {
@@ -12,11 +12,11 @@ public final class ChatUtil {
         return text == null ? "" : text.replace("&", "§");
     }
 
-    public static String message(WobbleKillSound plugin, String path) {
+    public static String message(KillSound plugin, String path) {
         return message(plugin, path, new String[0]);
     }
 
-    public static String message(WobbleKillSound plugin, String path, String... replacements) {
+    public static String message(KillSound plugin, String path, String... replacements) {
         FileConfiguration messages = plugin.getMessagesConfig();
         String prefix = color(messages.getString("prefix", "&8[&dKillSound&8] &r"));
         String raw = color(messages.getString(path, "&cMissing message: " + path));

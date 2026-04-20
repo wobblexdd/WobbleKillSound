@@ -1,6 +1,6 @@
 name: KillSound
 version: 1.2.0
-main: net.wobble.killsound.WobbleKillSound
+main: net.wobble.killsound.KillSound
 api-version: '1.21'
 authors: [Wobble]
 description: Configurable kill sound plugin.
@@ -10,10 +10,10 @@ softdepend:
 
 commands:
   killsound:
-    description: Manage WobbleKillSound
+    description: Manage KillSound
     usage: /killsound reload
 
 permissions:
-  wobblekillsound.reload:
-    description: Reload WobbleKillSound configuration
+  killsound.reload:
+    description: Reload KillSound configuration
     default: op

@@ -96,7 +96,7 @@ Reloads plugin configuration.
 
 ## 🔐 Permissions
 
-* `wobblekillsound.reload` — allows reloading plugin
+* `killsound.reload` — allows reloading plugin
 
 ---
 

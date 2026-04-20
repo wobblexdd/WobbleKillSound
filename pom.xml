@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.wobble</groupId>
-    <artifactId>WobbleKillSound</artifactId>
+    <artifactId>KillSound</artifactId>
     <version>1.2.0</version>
     <packaging>jar</packaging>
 
@@ -32,7 +32,7 @@
     </dependencies>
 
     <build>
-        <finalName>WobbleKillSound-1.2.0</finalName>
+        <finalName>KillSound-1.2.0</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

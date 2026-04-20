@@ -1,4 +1,4 @@
-# 🔊 WobbleKillSound
+# 🔊 KillSound
 
 Production-ready Minecraft plugin that plays a configurable sound when a player kills another player.
 
@@ -6,7 +6,7 @@ Production-ready Minecraft plugin that plays a configurable sound when a player 
 
 ## ⚙️ Overview
 
-WobbleKillSound enhances PvP feedback by playing a sound on kill events.  
+KillSound enhances PvP feedback by playing a sound on kill events.  
 It supports full configuration, radius-based playback, and optional integration with other plugins.
 
 ---

@@ -38,7 +38,7 @@ public final class WobbleKillSound extends JavaPlugin implements Listener {
             getCommand("killsound").setExecutor(new KillSoundCommand(this));
         }
 
-        getLogger().info("WobbleKillSound enabled.");
+        getLogger().info("KillSound enabled.");
     }
 
     @EventHandler(priority = EventPriority.HIGH)

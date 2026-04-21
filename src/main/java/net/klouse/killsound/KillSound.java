@@ -1,8 +1,8 @@
-package net.wobble.killsound;
+package net.klouse.killsound;
 
-import net.wobble.killsound.command.KillSoundCommand;
-import net.wobble.killsound.util.ChatUtil;
-import net.wobble.killsound.util.SoundUtil;
+import net.klouse.killsound.command.KillSoundCommand;
+import net.klouse.killsound.util.ChatUtil;
+import net.klouse.killsound.util.SoundUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -86,7 +86,7 @@ public final class KillSound extends JavaPlugin implements Listener {
     }
 
     private boolean isKillSoundEnabledFor(UUID uuid) {
-        Plugin settingsPlugin = Bukkit.getPluginManager().getPlugin("WobbleSettings");
+        Plugin settingsPlugin = Bukkit.getPluginManager().getPlugin("KlouseSettings");
         if (settingsPlugin == null || !settingsPlugin.isEnabled()) {
             return true;
         }
@@ -105,7 +105,7 @@ public final class KillSound extends JavaPlugin implements Listener {
                 return enabled;
             }
         } catch (Exception exception) {
-            getLogger().warning("Failed to hook into WobbleSettings: " + exception.getMessage());
+            getLogger().warning("Failed to hook into KlouseSettings: " + exception.getMessage());
         }
 
         return true;

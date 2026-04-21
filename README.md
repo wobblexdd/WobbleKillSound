@@ -20,7 +20,7 @@ It supports full configuration, radius-based playback, and optional integration 
 - ⚙️ Fully configurable via `config.yml`
 - 💬 Optional messages
 - 🔁 Reload command
-- 🔗 Integration with `WobbleSettings` (toggle per-player)
+- 🔗 Integration with `KlouseSettings` (toggle per-player)
 
 ---
 
@@ -102,7 +102,7 @@ Reloads plugin configuration.
 
 ## 🔗 Integration
 
-### WobbleSettings (optional)
+### KlouseSettings (optional)
 
 If installed:
 
